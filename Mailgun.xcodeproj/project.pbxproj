@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCD40000188567E600EF01E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCD4FFFF188567E600EF01E6 /* Images.xcassets */; };
+		CCD40007188567E600EF01E6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD40006188567E600EF01E6 /* XCTest.framework */; };
+		CCD40008188567E600EF01E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD4FFE7188567E600EF01E6 /* Foundation.framework */; };
+		CCD40009188567E600EF01E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD4FFEB188567E600EF01E6 /* UIKit.framework */; };
+		CCD40011188567E600EF01E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCD4000F188567E600EF01E6 /* InfoPlist.strings */; };
+		CCD40013188567E600EF01E6 /* MailgunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD40012188567E600EF01E6 /* MailgunTests.m */; };
+		CCD4FFE8188567E600EF01E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD4FFE7188567E600EF01E6 /* Foundation.framework */; };
+		CCD4FFEA188567E600EF01E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD4FFE9188567E600EF01E6 /* CoreGraphics.framework */; };
+		CCD4FFEC188567E600EF01E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD4FFEB188567E600EF01E6 /* UIKit.framework */; };
+		CCD4FFF2188567E600EF01E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCD4FFF0188567E600EF01E6 /* InfoPlist.strings */; };
+		CCD4FFF4188567E600EF01E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD4FFF3188567E600EF01E6 /* main.m */; };
+		CCD4FFF8188567E600EF01E6 /* CFYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD4FFF7188567E600EF01E6 /* CFYAppDelegate.m */; };
+		CCD4FFFB188567E600EF01E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCD4FFF9188567E600EF01E6 /* Main.storyboard */; };
+		CCD4FFFE188567E600EF01E6 /* CFYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD4FFFD188567E600EF01E6 /* CFYViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCD4000A188567E600EF01E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCD4FFDC188567E600EF01E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCD4FFE3188567E600EF01E6;
+			remoteInfo = Mailgun;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCD40005188567E600EF01E6 /* MailgunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MailgunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD40006188567E600EF01E6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CCD4000E188567E600EF01E6 /* MailgunTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MailgunTests-Info.plist"; sourceTree = "<group>"; };
+		CCD40010188567E600EF01E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCD40012188567E600EF01E6 /* MailgunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MailgunTests.m; sourceTree = "<group>"; };
+		CCD4FFE4188567E600EF01E6 /* Mailgun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mailgun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD4FFE7188567E600EF01E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CCD4FFE9188567E600EF01E6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CCD4FFEB188567E600EF01E6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CCD4FFEF188567E600EF01E6 /* Mailgun-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mailgun-Info.plist"; sourceTree = "<group>"; };
+		CCD4FFF1188567E600EF01E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCD4FFF3188567E600EF01E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCD4FFF5188567E600EF01E6 /* Mailgun-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mailgun-Prefix.pch"; sourceTree = "<group>"; };
+		CCD4FFF6188567E600EF01E6 /* CFYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFYAppDelegate.h; sourceTree = "<group>"; };
+		CCD4FFF7188567E600EF01E6 /* CFYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFYAppDelegate.m; sourceTree = "<group>"; };
+		CCD4FFFA188567E600EF01E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCD4FFFC188567E600EF01E6 /* CFYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFYViewController.h; sourceTree = "<group>"; };
+		CCD4FFFD188567E600EF01E6 /* CFYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFYViewController.m; sourceTree = "<group>"; };
+		CCD4FFFF188567E600EF01E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCD40002188567E600EF01E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD40007188567E600EF01E6 /* XCTest.framework in Frameworks */,
+				CCD40009188567E600EF01E6 /* UIKit.framework in Frameworks */,
+				CCD40008188567E600EF01E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD4FFE1188567E600EF01E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD4FFEA188567E600EF01E6 /* CoreGraphics.framework in Frameworks */,
+				CCD4FFEC188567E600EF01E6 /* UIKit.framework in Frameworks */,
+				CCD4FFE8188567E600EF01E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCD4000C188567E600EF01E6 /* MailgunTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCD40012188567E600EF01E6 /* MailgunTests.m */,
+				CCD4000D188567E600EF01E6 /* Supporting Files */,
+			);
+			path = MailgunTests;
+			sourceTree = "<group>";
+		};
+		CCD4000D188567E600EF01E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCD4000E188567E600EF01E6 /* MailgunTests-Info.plist */,
+				CCD4000F188567E600EF01E6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCD4FFDB188567E600EF01E6 = {
+			isa = PBXGroup;
+			children = (
+				CCD4FFED188567E600EF01E6 /* Mailgun */,
+				CCD4000C188567E600EF01E6 /* MailgunTests */,
+				CCD4FFE6188567E600EF01E6 /* Frameworks */,
+				CCD4FFE5188567E600EF01E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCD4FFE5188567E600EF01E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCD4FFE4188567E600EF01E6 /* Mailgun.app */,
+				CCD40005188567E600EF01E6 /* MailgunTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCD4FFE6188567E600EF01E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCD4FFE7188567E600EF01E6 /* Foundation.framework */,
+				CCD4FFE9188567E600EF01E6 /* CoreGraphics.framework */,
+				CCD4FFEB188567E600EF01E6 /* UIKit.framework */,
+				CCD40006188567E600EF01E6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCD4FFED188567E600EF01E6 /* Mailgun */ = {
+			isa = PBXGroup;
+			children = (
+				CCD4FFF6188567E600EF01E6 /* CFYAppDelegate.h */,
+				CCD4FFF7188567E600EF01E6 /* CFYAppDelegate.m */,
+				CCD4FFF9188567E600EF01E6 /* Main.storyboard */,
+				CCD4FFFC188567E600EF01E6 /* CFYViewController.h */,
+				CCD4FFFD188567E600EF01E6 /* CFYViewController.m */,
+				CCD4FFFF188567E600EF01E6 /* Images.xcassets */,
+				CCD4FFEE188567E600EF01E6 /* Supporting Files */,
+			);
+			path = Mailgun;
+			sourceTree = "<group>";
+		};
+		CCD4FFEE188567E600EF01E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCD4FFEF188567E600EF01E6 /* Mailgun-Info.plist */,
+				CCD4FFF0188567E600EF01E6 /* InfoPlist.strings */,
+				CCD4FFF3188567E600EF01E6 /* main.m */,
+				CCD4FFF5188567E600EF01E6 /* Mailgun-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCD40004188567E600EF01E6 /* MailgunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCD40019188567E600EF01E6 /* Build configuration list for PBXNativeTarget "MailgunTests" */;
+			buildPhases = (
+				CCD40001188567E600EF01E6 /* Sources */,
+				CCD40002188567E600EF01E6 /* Frameworks */,
+				CCD40003188567E600EF01E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCD4000B188567E600EF01E6 /* PBXTargetDependency */,
+			);
+			name = MailgunTests;
+			productName = MailgunTests;
+			productReference = CCD40005188567E600EF01E6 /* MailgunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCD4FFE3188567E600EF01E6 /* Mailgun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCD40016188567E600EF01E6 /* Build configuration list for PBXNativeTarget "Mailgun" */;
+			buildPhases = (
+				CCD4FFE0188567E600EF01E6 /* Sources */,
+				CCD4FFE1188567E600EF01E6 /* Frameworks */,
+				CCD4FFE2188567E600EF01E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mailgun;
+			productName = Mailgun;
+			productReference = CCD4FFE4188567E600EF01E6 /* Mailgun.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCD4FFDC188567E600EF01E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CFY;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Code Foundry";
+				TargetAttributes = {
+					CCD40004188567E600EF01E6 = {
+						TestTargetID = CCD4FFE3188567E600EF01E6;
+					};
+				};
+			};
+			buildConfigurationList = CCD4FFDF188567E600EF01E6 /* Build configuration list for PBXProject "Mailgun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCD4FFDB188567E600EF01E6;
+			productRefGroup = CCD4FFE5188567E600EF01E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCD4FFE3188567E600EF01E6 /* Mailgun */,
+				CCD40004188567E600EF01E6 /* MailgunTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCD40003188567E600EF01E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD40011188567E600EF01E6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD4FFE2188567E600EF01E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD40000188567E600EF01E6 /* Images.xcassets in Resources */,
+				CCD4FFF2188567E600EF01E6 /* InfoPlist.strings in Resources */,
+				CCD4FFFB188567E600EF01E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCD40001188567E600EF01E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD40013188567E600EF01E6 /* MailgunTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD4FFE0188567E600EF01E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD4FFF4188567E600EF01E6 /* main.m in Sources */,
+				CCD4FFF8188567E600EF01E6 /* CFYAppDelegate.m in Sources */,
+				CCD4FFFE188567E600EF01E6 /* CFYViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCD4000B188567E600EF01E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCD4FFE3188567E600EF01E6 /* Mailgun */;
+			targetProxy = CCD4000A188567E600EF01E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCD4000F188567E600EF01E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCD40010188567E600EF01E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CCD4FFF0188567E600EF01E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCD4FFF1188567E600EF01E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CCD4FFF9188567E600EF01E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCD4FFFA188567E600EF01E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCD40014188567E600EF01E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCD40015188567E600EF01E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCD40017188567E600EF01E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mailgun/Mailgun-Prefix.pch";
+				INFOPLIST_FILE = "Mailgun/Mailgun-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CCD40018188567E600EF01E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mailgun/Mailgun-Prefix.pch";
+				INFOPLIST_FILE = "Mailgun/Mailgun-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CCD4001A188567E600EF01E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mailgun.app/Mailgun";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mailgun/Mailgun-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MailgunTests/MailgunTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CCD4001B188567E600EF01E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mailgun.app/Mailgun";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mailgun/Mailgun-Prefix.pch";
+				INFOPLIST_FILE = "MailgunTests/MailgunTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCD40016188567E600EF01E6 /* Build configuration list for PBXNativeTarget "Mailgun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD40017188567E600EF01E6 /* Debug */,
+				CCD40018188567E600EF01E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCD40019188567E600EF01E6 /* Build configuration list for PBXNativeTarget "MailgunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD4001A188567E600EF01E6 /* Debug */,
+				CCD4001B188567E600EF01E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCD4FFDF188567E600EF01E6 /* Build configuration list for PBXProject "Mailgun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD40014188567E600EF01E6 /* Debug */,
+				CCD40015188567E600EF01E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCD4FFDC188567E600EF01E6 /* Project object */;
+}
