@@ -42,10 +42,10 @@
 		CCD4000E188567E600EF01E6 /* MailgunTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MailgunTests-Info.plist"; sourceTree = "<group>"; };
 		CCD40010188567E600EF01E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CCD40012188567E600EF01E6 /* MailgunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MailgunTests.m; sourceTree = "<group>"; };
-		CCD4001C1885689900EF01E6 /* CFYMailgun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFYMailgun.h; sourceTree = "<group>"; };
-		CCD4001D1885689900EF01E6 /* CFYMailgun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFYMailgun.m; sourceTree = "<group>"; };
-		CCD4001F1885692D00EF01E6 /* CFYMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFYMessage.h; sourceTree = "<group>"; };
-		CCD400201885692D00EF01E6 /* CFYMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFYMessage.m; sourceTree = "<group>"; };
+		CCD4001C1885689900EF01E6 /* CFYMailgun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFYMailgun.h; path = ../CFYMailgun/CFYMailgun.h; sourceTree = "<group>"; };
+		CCD4001D1885689900EF01E6 /* CFYMailgun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFYMailgun.m; path = ../CFYMailgun/CFYMailgun.m; sourceTree = "<group>"; };
+		CCD4001F1885692D00EF01E6 /* CFYMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFYMessage.h; path = ../CFYMailgun/CFYMessage.h; sourceTree = "<group>"; };
+		CCD400201885692D00EF01E6 /* CFYMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFYMessage.m; path = ../CFYMailgun/CFYMessage.m; sourceTree = "<group>"; };
 		CCD4FFE4188567E600EF01E6 /* Mailgun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mailgun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCD4FFE7188567E600EF01E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CCD4FFE9188567E600EF01E6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
