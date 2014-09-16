@@ -151,9 +151,15 @@ NSString * const CFYMailgunBaseURL = @"https://api.mailgun.net/";
     [buffer setObject:message.body forKey:@"text"];
     [buffer setObject:message.subject forKey:@"subject"];
     [buffer setObject:[message.to componentsJoinedByString:@","] forKey:@"to"];
-    [buffer setObject:[message.cc componentsJoinedByString:@","] forKey:@"cc"];
-    [buffer setObject:[message.bcc componentsJoinedByString:@","] forKey:@"bcc"];
+
+    if ( [message.cc count] > 0 ) {
+        [buffer setObject:[message.cc componentsJoinedByString:@","] forKey:@"cc"];
+    }
     
+    if ( [message.bcc count] > 0 ) {
+        [buffer setObject:[message.bcc componentsJoinedByString:@","] forKey:@"bcc"];
+    }
+
     NSMutableArray *bufferBody = [NSMutableArray array];
     
     for (NSString *key in buffer) {
